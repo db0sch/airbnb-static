@@ -1,4 +1,21 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+flat1:
+  owner:
+    name: Julien
+    avatar: julien.png
+  city: Paris
+  description: Nice and comfy
+  picture: card-paris.jpg
+flat2:
+  owner: 
+    name: Yassine
+    avatar: yassine.png
+  city: Berlin
+  description: Near the best clubs
+  picture: card-berlin.jpg
+flat3:
+  owner:
+    name: Dimitri
+    avatar: dimitri.png
+  city: Tokyo
+  description: Nice parks
+  picture: card-tokyo.jpg

@@ -1,0 +1,19 @@
+.wrapper-team {
+  padding: 100px 0px;
+  .team_member {
+    margin: 50px;
+    font-weight: lighter;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    img {
+      &:hover {
+        box-shadow: 1px 1px 1px #6E63BE;
+      }
+    }
+  }
+  h2 {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,17 @@
+<div class="wrapper-team text-center">
+  <div class= "container">
+    <ul class="list-inline text-center">
+    <h2>This is our great team:</h2>
+      <% data.team.each do |member, infos| %>
+        <li class="team_member">
+          <% link_to "#{infos.url}", target: "_blank" do %>
+            <%= image_tag "#{infos.picture}", class: "img-circle avatar-x-large" %>
+            <h3><%= member.capitalize %></h3>
+            <h4><%= infos.job %></h4>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+    <%= link_to "contact@airbnb.com", "mailto:contact@airbnb.com" %>
+  </div>
+</div>

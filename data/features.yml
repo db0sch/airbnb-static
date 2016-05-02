@@ -1,0 +1,16 @@
+discover:
+  title: Discover the world
+  tagline: The earth is your new home.
+  picture: globe.png
+pay:
+  title: Pay online
+  tagline: No cash issues anymore.
+  picture: dollar.png
+meet:
+  title: Meet people
+  tagline: Discover new culture and lifestyle.
+  picture: beer.png
+share:
+  title: Share and love
+  tagline: Join a community you will love.
+  picture: heart.png
