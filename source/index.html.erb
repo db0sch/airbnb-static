@@ -30,20 +30,20 @@ title: Le Wagon Middleman boilerplate
     <% end %>
   </div>
 </div>
-<div class="wrapper-yellow padded">
+<div class="wrapper-green padded">
   <div class="container">
     <h2 class="text-center">Your next trip</h2>
     <div class="row">
-      <% data.products.each do |flat, infos| %>
+      <% data.flats.each do |flat, infos| %>
         <div class="col-xs-12 col-sm-4">
           <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path infos.picture %>);"> 
             <div class="card-category"><%= infos.city %></div>
             <div class="card-description">
-              <h2><%= infos.owner.name %>'s home</h2>
+              <h2><%= infos.owner.firstname %>'s home</h2>
               <p><%= infos.description %></p>
             </div>
             <%= image_tag infos.owner.avatar, class: "card-user avatar avatar-large" %>
-            <%= link_to "", "#", class: "card-link" %>
+            <%= link_to "", "flats/#{flat}.html", class: "card-link" %>
           </div>
         </div>
       <% end %>
