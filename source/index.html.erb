@@ -30,7 +30,7 @@ title: Le Wagon Middleman boilerplate
     <% end %>
   </div>
 </div>
-<div class="wrapper-grey padded">
+<div class="wrapper-yellow padded">
   <div class="container">
     <h2 class="text-center">Your next trip</h2>
     <div class="row">
@@ -43,7 +43,7 @@ title: Le Wagon Middleman boilerplate
               <p><%= infos.description %></p>
             </div>
             <%= image_tag infos.owner.avatar, class: "card-user avatar avatar-large" %>
-            <a class="card-link" href="#" ></a>
+            <%= link_to "", "#", class: "card-link" %>
           </div>
         </div>
       <% end %>
